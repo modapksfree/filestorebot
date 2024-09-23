@@ -9,12 +9,13 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Language : <code>Python3</code></b> 🐍\n<b>○ Version : v1 🫏</b>\n<b>○ Developer : <code>@savoryrabbit</code> 😼</b>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='https://t.me/botsbyadmin'>ᴀᴅᴍɪɴ</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/botsbyadmin'>ᴀᴅᴍɪɴ ᴋᴇ ʙᴏᴛꜱ</a>\n○ ꜱᴛᴜꜰꜰ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+b22FVnDQPChlYTBl'>ᴛʜᴇ ʙᴏʏꜱ</a>\n○ ꜱᴛᴜꜰꜰ ʙᴀᴄᴋᴜᴘ : <a href='https://t.me/stuffbackup'>ꜱᴛᴜꜰꜰ ʙᴀᴄᴋᴜᴘ</a>\n○ ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ : <a href='https://t.me/reachoutadminbot'>ʀᴇᴀᴄʜᴏᴜᴛᴀᴅᴍɪɴʙᴏᴛ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("ⓧ Close", callback_data = "close")
+                        InlineKeyboardButton('🍁 ᴘʀᴇᴍɪᴜᴍ ', url='https://t.me/+A4wxGbQ3ELFkY2Fl')
                     ]
                 ]
             )
@@ -35,7 +36,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                         InlineKeyboardButton("Send Payment Screenshot(ADMIN) 📸", url=(SCREENSHOT_URL))
                     ],
                     [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
+                        InlineKeyboardButton("ⓧ Close", callback_data = "close")
                     ]
                 ]
             )
