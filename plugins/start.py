@@ -394,8 +394,7 @@ async def auth_command(client: Bot, message: Message):
         text=f"Message for @{OWNER_TAG}\n<code>{message.from_user.id}</code>\n/add_admin <code>{message.from_user.id}</code> 🤫",
     )
 
-    await message.reply("ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ ꜰᴏʀ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜰʀᴏᴍ ᴛʜᴇ ᴏᴡɴᴇʀ ⏱︎.
-ᴄᴏɴᴛᴀᴄᴛ ʜᴇʀᴇ :- @reachoutadminbot ")
+    await message.reply("ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ ꜰᴏʀ ᴠᴇʀɪꜰɪᴄᴀᴛɪᴏɴ ꜰʀᴏᴍ ᴛʜᴇ ᴏᴡɴᴇʀ ⏱︎. ᴄᴏɴᴛᴀᴄᴛ ʜᴇʀᴇ :- @reachoutadminbot ")
     return
 
 
