@@ -9,7 +9,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='https://t.me/botsbyadmin'>ᴀᴅᴍɪɴ</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/botsbyadmin'>ᴀᴅᴍɪɴ ᴋᴇ ʙᴏᴛꜱ</a>\n○ ꜱᴛᴜꜰꜰ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+b22FVnDQPChlYTBl'>ᴛʜᴇ ʙᴏʏꜱ</a>\n○ ᴘʀᴇᴍɪᴜᴍ ꜱᴛᴜꜰꜰ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+A4wxGbQ3ELFkY2Fl'> ᴛʜᴇ ꜱᴇᴠᴇɴ</a>\n○ ʙᴀᴄᴋᴜᴘ : <a href='https://t.me/stuffbackup'>ꜱᴛᴜꜰꜰ ʙᴀᴄᴋᴜᴘ</a>\n○ ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ : <a href='https://t.me/reachoutadminbot'>ʀᴇᴀᴄʜᴏᴜᴛᴀᴅᴍɪɴʙᴏᴛ</a></b>",
+            text = f"<b>○ ᴏᴡɴᴇʀ : <a href='https://t.me/botsbyadmin'>ᴀᴅᴍɪɴ</a>\n○ ᴍʏ ᴜᴘᴅᴀᴛᴇs : <a href='https://t.me/botsbyadmin'>ᴀᴅᴍɪɴ ᴋᴇ ʙᴏᴛꜱ</a>\n○ ꜱᴛᴜꜰꜰ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+b22FVnDQPChlYTBl'>ᴛʜᴇ ʙᴏʏꜱ</a>\n○ ᴘʀᴇᴍɪᴜᴍ ꜱᴛᴜꜰꜰ ᴄʜᴀɴɴᴇʟ : <a href='https://t.me/+A4wxGbQ3ELFkY2Fl'>ᴛʜᴇ ꜱᴇᴠᴇɴ</a>\n○ ʙᴀᴄᴋᴜᴘ : <a href='https://t.me/stuffbackup'>ꜱᴛᴜꜰꜰ ʙᴀᴄᴋᴜᴘ</a>\n○ ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ : <a href='https://t.me/reachoutadminbot'>ʀᴇᴀᴄʜᴏᴜᴛᴀᴅᴍɪɴʙᴏᴛ</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
