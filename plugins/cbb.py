@@ -14,7 +14,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("ⓧ Close", callback_data = "close"),
+                        InlineKeyboardButton("ⓧ ᴄʟᴏꜱᴇ", callback_data = "close"),
                         InlineKeyboardButton('🌶️ ᴘʀᴇᴍɪᴜᴍ ᴄʜᴀɴɴᴇʟ', url='https://t.me/+GhbOM6WGps9kMGJk')
                     ]
                 ]
@@ -33,10 +33,10 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(
                 [   
                     [
-                        InlineKeyboardButton("Send Payment Screenshot(ADMIN) 📸", url=(SCREENSHOT_URL))
+                        InlineKeyboardButton("ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ(ᴀᴅᴍɪɴ) 📸", url=(SCREENSHOT_URL))
                     ],
                     [
-                        InlineKeyboardButton("ⓧ Close", callback_data = "close")
+                        InlineKeyboardButton("ⓧ ᴄʟᴏꜱᴇ", callback_data = "close")
                     ]
                 ]
             )
