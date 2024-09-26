@@ -194,8 +194,8 @@ async def start_command(client: Client, message: Message):
                     link = await get_shortlink(SHORTLINK_API_URL, SHORTLINK_API_KEY,f'{newLink}')
                     if USE_PAYMENT:
                         btn = [
-                        [InlineKeyboardButton("ʀᴇꜰʀᴇꜱʜ ᴛᴏᴋᴇɴ", url=link),
-                        InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ʀᴇꜰʀᴇꜱʜ ᴛᴏᴋᴇɴ ? (ᴛᴜᴛᴏʀɪᴀʟ)', url=TUT_VID)],
+                        [InlineKeyboardButton("ʀᴇꜰʀᴇꜱʜ ᴛᴏᴋᴇɴ", url=link)],
+                        [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ʀᴇꜰʀᴇꜱʜ ᴛᴏᴋᴇɴ ? (ᴛᴜᴛᴏʀɪᴀʟ)', url=TUT_VID)],
                         [InlineKeyboardButton("ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ", callback_data="buy_prem")]
                         ]
                     else:
@@ -246,8 +246,8 @@ async def start_command(client: Client, message: Message):
             link = await get_shortlink(SHORTLINK_API_URL, SHORTLINK_API_KEY,f'https://telegram.dog/{client.username}?start=verify_{token}')
             if USE_PAYMENT:
                 btn = [
-                [InlineKeyboardButton("ʀᴇꜰʀᴇꜱʜ ᴛᴏᴋᴇɴ", url=link),
-                InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ʀᴇꜰʀᴇꜱʜ ᴛᴏᴋᴇɴ ? (ᴛᴜᴛᴏʀɪᴀʟ)', url=TUT_VID)],
+                [InlineKeyboardButton("ʀᴇꜰʀᴇꜱʜ ᴛᴏᴋᴇɴ", url=link)],
+                [InlineKeyboardButton('ʜᴏᴡ ᴛᴏ ʀᴇꜰʀᴇꜱʜ ᴛᴏᴋᴇɴ ? (ᴛᴜᴛᴏʀɪᴀʟ)', url=TUT_VID)],
                 [InlineKeyboardButton("ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ", callback_data="buy_prem")]
                 ]
             else:
