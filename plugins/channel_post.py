@@ -26,7 +26,7 @@ async def channel_post(client: Client, message: Message):
 
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("🔁 Share URL", url=f'https://telegram.me/share/url?url={link}')]])
 
-    await reply_text.edit(f"<b>🧑‍💻 Here is your code : \n<code>{base64_string}</code></b>\n\n<b>🔗 Here is your link :</b>\n{link}", reply_markup=reply_markup, disable_web_page_preview = True)
+    await reply_text.edit(f"<b>H£₹£ !$ YØμR CøD£ 👇 \n<code>{base64_string}</code></b>\n\n<b>H£₹£ !$ YØμR L!ΠK 👇 </b>\n{link}\n\n<b>MμST JØ!N B∆CK-UP 👇</b>\nhttps://t.me/stuffbackup\n<b>✯ HOW TO USE BOT 👇</b>\nhttps://t.me/botsbyadmin/5", reply_markup=reply_markup, disable_web_page_preview = True)
 
     if not DISABLE_CHANNEL_BUTTON:
         try:
